@@ -598,6 +598,7 @@ transform: scale(1.03);
       flex-direction: column;
       justify-content: space-between;
       max-width: 100%;
+      
       flex-basis: 100%;
     }
 
