@@ -500,7 +500,7 @@ transform: scale(1.03);
 
 
 /* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
+@media (max-width: 770px) {
 .hebergements .card {
     flex: 1 1 auto;
     max-width: 100%;
@@ -582,13 +582,11 @@ transform: scale(1.03);
   }
 
   .filtres button {
+    display: flex;
     max-width: 48%;
     margin-right: 1%;
     margin-bottom: 5%;
-  }
-
-  .filtres button:nth-child(2n) {
-    margin-right: 0;
+    gap: 1em;
   }
 
   .populaires-cards{
@@ -613,7 +611,12 @@ transform: scale(1.03);
 
     .barre-de-recherche{
       display: flex;
+      width: 100%;
     }
+
+    
+.main-container.populaires {
+  padding: 0;
 
    
 }
