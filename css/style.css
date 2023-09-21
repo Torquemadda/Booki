@@ -545,7 +545,7 @@ transform: scale(1.03);
 
   .main-container {
     width: 100%;
-    padding: 0 1em;
+   padding: 0 1em;
   }
 
   .informations{
@@ -613,7 +613,8 @@ transform: scale(1.03);
       display: flex;
       width: 100%;
     }
-
+  
+  
     
 
 
