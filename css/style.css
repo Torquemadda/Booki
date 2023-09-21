@@ -548,6 +548,11 @@ transform: scale(1.03);
    padding: 0 1em;
   }
 
+    .main-container .populaire {
+      margin-left: -15px;
+      margin-right: -15px;
+    }
+
   .informations{
     margin-bottom: -3em;
   }
@@ -613,7 +618,7 @@ transform: scale(1.03);
       display: flex;
       width: 100%;
     }
-  
+    
   
     
 
