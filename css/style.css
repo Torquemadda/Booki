@@ -494,9 +494,14 @@ transform: scale(1.03);
       font-size: 1.063em;
       align-items: flex-start;
     }
-    
-    
+
+    .filtre-titre {
+      margin-top: 1em;
+      margin-bottom: -2em;
     }
+    
+    
+  }
 
 
 /* Small devices (phones, less than 768px) */
@@ -545,13 +550,13 @@ transform: scale(1.03);
 
   .main-container {
     width: 100%;
-   padding: 0 1em;
+    padding: 0 1em;
   }
 
-    .main-container .populaire {
-      margin-left: -15px;
-      margin-right: -15px;
-    }
+  .main-container .populaire {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
 
   .informations{
     margin-bottom: -3em;
@@ -652,8 +657,11 @@ transform: scale(1.03);
       width: 120%;
       margin-left: -3em;
       padding-left: 3em;
+    }
 
-
+    .filtre-titre {
+      margin-top: 1em;
+       margin-bottom: -2em;
     }
     
   
