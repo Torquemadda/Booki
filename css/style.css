@@ -348,6 +348,7 @@ transform: scale(1.03);
 /* Activités ) Marseille */
 .activites-a-marseille{
   margin: 1em;
+  margin-top: 5rem;
 }
 
 .cards-container {
@@ -590,6 +591,11 @@ padding: 0;
     margin-top: 1.875em;
     background-color: white;
     width: 100%;
+    padding: 1rem;
+  }
+
+  .nav-hebergement{
+    margin-left: 0.5rem;
   }
 
   
@@ -619,6 +625,7 @@ padding: 0;
   .populaires-cards{
     display: flex;
     flex-direction: column;
+    
     }
 
   .populaires-cards img {
@@ -635,7 +642,7 @@ padding: 0;
 
   .populaires{
     width: 100%;
-    padding: 3em;
+    padding: 1em;
     border-radius: 0;
   }
 
@@ -649,6 +656,7 @@ padding: 0;
     display: flex;
     flex-direction: column;
     gap: 1em;
+    padding: 1rem;
   }
 
   .card-acti img{
