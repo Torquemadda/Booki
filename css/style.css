@@ -553,18 +553,18 @@ padding: 0;
     flex-direction: column;
   }
 
-    .sub-nav {
-      display: flex;
-      width: 100%;
-      padding-top: 1.25em;
-    }
+  .sub-nav {
+    display: flex;
+    width: 100%;
+    padding-top: 1.25em;
+  }
   
-    .sub-nav-left,
-    .sub-nav-right {
-      flex: 1;
-      margin: 0;
-      text-align: center;
-    }
+  .sub-nav-left,
+  .sub-nav-right {
+    flex: 1;
+    margin: 0;
+    text-align: center;
+  }
 
   nav a {
     text-align: center;
