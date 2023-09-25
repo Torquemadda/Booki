@@ -518,6 +518,21 @@ padding: 0;
   padding: 0 2em;
 }
 
+.descr-t-p{
+  margin-top: 0.5em;
+}
+
+nav a {
+  padding: 1em;
+  border-bottom: 0.2em solid transparent;
+  
+}
+
+nav a:hover {
+  border-top: 0;
+  border-bottom: 0.2em solid var(--main-color);
+}
+
 .informations{
   margin-left: 2em;
 }
@@ -623,6 +638,7 @@ padding: 0;
     .populaires{
       width: 100%;
       padding: 3em;
+      border-radius: 0;
     }
 
     .cards-wrapper {
