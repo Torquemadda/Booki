@@ -518,21 +518,6 @@ padding: 0;
   padding: 0 2em;
 }
 
-.descr-t-p{
-  margin-top: 0.5em;
-}
-
-nav a {
-  padding: 1em;
-  border-bottom: 0.2em solid transparent;
-  
-}
-
-nav a:hover {
-  border-top: 0;
-  border-bottom: 0.2em solid var(--main-color);
-}
-
 .informations{
   margin-left: 2em;
 }
@@ -552,10 +537,6 @@ nav a:hover {
     max-width: 100%;
     width: 100%;
 }
-
-  nav{
-    flex-direction: column;
-  }
    
   #logo-booki {
     width: 6.25em;
@@ -564,19 +545,36 @@ nav a:hover {
     justify-content: center;
   }
 
-  .sub-nav {
-    display: flex;
-    padding-top: 1.25em;
-    flex-direction:row;
+  .descr-t-p {
+    margin-top: 0.5em;
   }
 
-  .sub-nav-left{
-    display: flex;
-    width: 100%;
+  nav {
+    flex-direction: column;
   }
+
+    .sub-nav {
+      display: flex;
+      width: 100%;
+      padding-top: 1.25em;
+    }
+  
+    .sub-nav-left,
+    .sub-nav-right {
+      flex: 1;
+      margin: 0;
+      text-align: center;
+    }
 
   nav a {
     text-align: center;
+    padding: 1em;
+    border-bottom: 0.2em solid transparent;
+  }
+
+    nav a:hover {
+    border-top: 0;
+    border-bottom: 0.2em solid var(--main-color);
   }
 
   .informations{
@@ -623,55 +621,55 @@ nav a:hover {
     flex-direction: column;
     }
 
-    .populaires-cards img {
-      width: 33%;
-      height: 9.125em;
-      border-top-left-radius: 1.25em;
-      border-bottom-left-radius: 1.25em;
-    }
+  .populaires-cards img {
+    width: 33%;
+    height: 9.125em;
+    border-top-left-radius: 1.25em;
+    border-bottom-left-radius: 1.25em;
+  }
 
-    .barre-de-recherche{
-      display: flex;
-      width: 100%;
-    }
+  .barre-de-recherche{
+    display: flex;
+    width: 100%;
+  }
 
-    .populaires{
-      width: 100%;
-      padding: 3em;
-      border-radius: 0;
-    }
+  .populaires{
+    width: 100%;
+    padding: 3em;
+    border-radius: 0;
+  }
 
-    .cards-wrapper {
-      display: flex;
-      flex-direction: column;
-      gap: 1em;
-    }
+  .cards-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
 
-    .cards-container{
-      display: flex;
-      flex-direction: column;
-      gap: 1em;
-    }
+  .cards-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
 
-    .card-acti img{
-      max-height: 8.813em;
-    }
+  .card-acti img{
+    max-height: 8.813em;
+  }
 
-    .card-hebe img{
-      max-height: 8.813em;
-    }
+  .card-hebe img{
+    max-height: 8.813em;
+  }
     
-    .footer{
-      display: flex;
-      flex-direction: column;
-      gap: 1.5em;
-      width: 100%;
-    }
+  .footer{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    width: 100%;
+  }
 
     .filtre-titre {
       margin-top: 1em;
       margin-bottom: -2em;
-    }
+  }
     
  
 
