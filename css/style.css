@@ -559,10 +559,6 @@ transform: scale(1.03);
     text-align: center;
   }
 
-  .main-container {
-    width: 100%;
-    padding: 0 1em;
-  }
 
   .main-container .populaire {
     margin-left: -15px;
@@ -581,16 +577,12 @@ transform: scale(1.03);
   .hebergements{
     margin-top: 1.875em;
     background-color: white;
-    width: 120%;
+    width: 100%;
     margin-left: -1em;
     padding-right: 4.5em;
   }
 
-  .cards-wrapper{
-    flex-direction: column;
-    flex-wrap: wrap;
-    
-  }
+  
   .text-recherche{
     display: none;
   }
@@ -619,16 +611,6 @@ transform: scale(1.03);
     flex-direction: column;
     }
 
-    .card-hebe{
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      max-width: 100%;
-      flex-basis: 100%;
-      
-      
-    }
-
     .populaires-cards img {
       width: 33%;
       height: 9.125em;
@@ -642,9 +624,15 @@ transform: scale(1.03);
     }
 
     .populaires{
-      width: 125%;
+      width: 100%;
       margin-left: -3em;
       padding: 3em;
+    }
+
+    .cards-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
     }
 
     .cards-container{
@@ -665,18 +653,17 @@ transform: scale(1.03);
       display: flex;
       flex-direction: column;
       gap: 1.5em;
-      width: 120%;
+      width: 100%;
       margin-left: -3em;
       padding-left: 3em;
     }
 
     .filtre-titre {
       margin-top: 1em;
-       margin-bottom: -2em;
+      margin-bottom: -2em;
     }
     
-  
-    
+ 
 
 
    
